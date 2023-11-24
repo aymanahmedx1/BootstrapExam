@@ -1,0 +1,40 @@
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse {
+        text-align: center;
+        border: none;
+        border-top: 1px solid rgba(12, 12, 12, 0.04);
+        background: #fff;
+        margin-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    nav ul li a {
+        --bs-nav-link-color: black;
+        --bs-navbar-active-color: black;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .contact .w-lg-85{
+  width: 85%;
+}
+}
+@media screen and (max-width:991px) {
+    nav ul li {
+        margin: 25px 15px 0;
+    }
+    
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 750px;
+    }
+
+}
